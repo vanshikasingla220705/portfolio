@@ -24,8 +24,16 @@ export const links = [
     hash: "#projects",
   },
   {
+    name:"Achievements",
+    hash:"#achievements",
+  },
+  {
     name: "Skills",
     hash: "#skills",
+  },
+  {
+    name:"Coding_Platforms",
+    hash:"#codingplatform",
   },
   {
     name: "Education",
@@ -35,14 +43,8 @@ export const links = [
     name: "Contact",
     hash: "#contact",
   },
-  {
-    name:"Achievements",
-    hash:"#achievements",
-  },
-  {
-    name:"codingplatform",
-    hash:"#codingplatform",
-  },
+  
+  
 ] as const;
 
 export const education = [
@@ -69,23 +71,29 @@ export const projectsData = [
   {
     title: "MYNTRA AI",
     description:
-      "Built an AI-powered e-commerce platform that enables intelligent search for fashion and home décor items. The system understands user intent through text and images, delivering accurate, context-aware product recommendations beyond traditional keyword-based search.",
+      "Built an AI-powered e-commerce platform that enables intelligent search for fashion and home décor items.",
     tags: [ "MERN", "Gemini API", "Sentence-Transformers", "PyTorch", "Hugging Face Spaces"],
     imageUrl: myntraai,
+    githuburl:"https://github.com/vanshikasingla220705/myntra-project",
+    liveurl:"https://myntra-project-3.onrender.com/"
   },
   {
     title: "MYSTRY MESSAGE",
     description:
-      "Developed a full-stack anonymous messaging application with secure user authentication, allowing users to receive and manage anonymous messages through a shareable URL. Integrated AI-based message suggestions to enhance the sender experience.",
+      "Developed a full-stack anonymous messaging app with secure authentication and shareable message links.",
     tags: ["Next.js", "NextAuth.js", "Shadcn/UI", "Zod", "Google Gemini API", "Typescript"],
     imageUrl: mytmsg,
+    githuburl:"https://github.com/vanshikasingla220705/mystrymessage",
+    liveurl:"https://mystrymessage-eight.vercel.app/"
   },
   {
     title: "STREAM NEST",
     description:
-      "Built the complete backend for a video-sharing platform supporting user authentication, video uploads, likes, comments, playlists, and watch history. Implemented secure JWT-based auth, Cloudinary media storage, and optimized data retrieval using Mongoose aggregations.",
+      " Built the backend for a video-sharing platform with JWT auth, Cloudinary media storage, and optimized Mongoose queries.",
     tags: [" Node.js" ,"Express.js", "MongoDB", "Cloudinary", "JWT", "Multer"],
     imageUrl: stream,
+    githuburl:"https://github.com/vanshikasingla220705/megaproject-backend",
+    liveurl:"https://github.com/vanshikasingla220705/megaproject-backend"
   },
 ] as const;
 
