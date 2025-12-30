@@ -7,9 +7,11 @@ import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
+import { useSectionInView } from "@/lib/hooks";
 export default function Intro() {
+  const { ref } = useSectionInView("Home", 0.5);
   return (
-    <section className="mb-28 max-w-[50rem] mx-auto text-center sm:mb-0 scroll-mt-[100rem]">
+    <motion.section className="mb-28 max-w-[50rem] mx-auto text-center sm:mb-0 scroll-mt-800" ref={ref}>
       {/* IMAGE + EMOJI */}
       <div className="flex items-center justify-center">
         <div className="relative">
@@ -81,6 +83,6 @@ export default function Intro() {
         </motion.div>
 
 
-    </section>
+    </motion.section>
   );
 }

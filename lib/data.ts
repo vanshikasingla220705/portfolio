@@ -10,6 +10,8 @@ import odoo from "@/public/WhatsApp Image 2025-12-27 at 9.08.00 PM.jpeg"
 import leet from "@/public/Screenshot 2025-12-27 211934.png"
 import gfg from "@/public/Screenshot 2025-12-27 212106.png"
 import cf from "@/public/Screenshot 2025-12-27 212140.png"
+import gb from "@/public/Screenshot 2025-12-30 165342.png"
+import { title } from "node:process";
 export const links = [
   {
     name: "Home",
@@ -78,7 +80,7 @@ export const projectsData = [
     liveurl:"https://myntra-project-3.onrender.com/"
   },
   {
-    title: "MYSTRY MESSAGE",
+    title: "MYSTRY MSG",
     description:
       "Developed a full-stack anonymous messaging app with secure authentication and shareable message links.",
     tags: ["Next.js", "NextAuth.js", "Shadcn/UI", "Zod", "Google Gemini API", "Typescript"],
@@ -102,16 +104,26 @@ export const coding=[
     title: "LEETCODE",
     description:"",
     imageUrl: leet,
+    url:"https://leetcode.com/u/vanshikasingla22/"
+  },
+  {
+    title:"GITHUB",
+    description:"",
+    imageUrl:gb,
+    url:"https://github.com/vanshikasingla220705"
   },
   {
     title: "CODEFORCES",
     description:"",
     imageUrl: cf,
+    url:"https://codeforces.com/profile/Vanshikasingla"
   },
+
   {
     title: "GFG",
     description:"",
     imageUrl: gfg,
+    url:"https://www.geeksforgeeks.org/profile/vanshikasj3bo"
   },
 ]
 
